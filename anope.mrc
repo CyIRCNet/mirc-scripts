@@ -484,16 +484,16 @@ Menu Nicklist,channel {
   ...Language
   ....-
   ....English:.msg NickServ SET LANGUAGE 1
-  ....Franחais (French):.msg NickServ SET LANGUAGE 2
+  ....Français (French):.msg NickServ SET LANGUAGE 2
   ....Deutsch (German):.msg NickServ SET LANGUAGE 3
   ....Italiano (Italian):.msg NickServ SET LANGUAGE 4
-  ....Portuguךs (Portuguese):.msg NickServ SET LANGUAGE 5
+  ....Português (Portuguese):.msg NickServ SET LANGUAGE 5
   ....Espaסol (Spanish):.msg NickServ SET LANGUAGE 6
-  ....Trkחe (Turkish):.msg NickServ SET LANGUAGE 7
+  ....Türkiye (Turkish):.msg NickServ SET LANGUAGE 7
   ....Catala (Catalan):.msg NickServ SET LANGUAGE 8
-  ....ֵככחםיך (Greek):.msg NickServ SET LANGUAGE 9
+  ....Ελληνικά (Greek):.msg NickServ SET LANGUAGE 9
   ....Nederlands (Dutch):.msg NickServ SET LANGUAGE 10
-  ....׀ףססךטי (Russian):.msg NickServ SET LANGUAGE 11
+  ....Россия (Russian):.msg NickServ SET LANGUAGE 11
   ....Magyar (Hungarian):.msg NickServ SET LANGUAGE 12
   ....Polski (Polish):.msg NickServ SET LANGUAGE 13
   ....-
