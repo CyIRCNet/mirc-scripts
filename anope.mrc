@@ -1,5 +1,5 @@
 ;-----------Anope Services v.1.0 by Shillos--------
-;This script was built to match Anope 2.0.9+ for CyIRC Network and it's extras
+;This script was built to match Anope 2.0.10+ for CyIRC Network and it's extras
 ;Freely copy or edit any part of this script as you feel fit for your network.
 ;This script is available @ https://cyirc.org
 ;If you wish to contact me please visit #cyprus @ irc.cyirc.org:+6697
