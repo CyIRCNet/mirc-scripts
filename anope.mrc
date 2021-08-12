@@ -1,7 +1,7 @@
-;-----------Anope Services v.1.0 by Shillos--------
+;-----------Anope Services v.1.1 by Shillos--------
 ;This script was built to match Anope 2.0.10+ for CyIRC Network and it's extras
 ;Freely copy or edit any part of this script as you feel fit for your network.
-;This script is available @ https://cyirc.org
+;This script is available @ https://github.com/CyIRCNet/mirc-scripts/
 ;If you wish to contact me please visit #cyprus @ irc.cyirc.org:+6697
 ;Thank you for downloading this script and hope it is useful to you!
 
@@ -9,7 +9,7 @@ Menu Nicklist,channel {
   $iif($server != $null,Anope Services)
   .- = • • IRC.CYIRC.ORG • • = - :.server -m irc.cyirc.org:+6697 -j #cyprus
   .-
-  .Advertise:.say Anope Services v.1.0 by Shillos can be downloaded from http://cyirc.org
+  .Advertise:.say Anope Services v.1.1 by Shillos can be downloaded from https://github.com/CyIRCNet/mirc-scripts/
   .Visit Us:.say Visit us today at #cyprus on the CyIRC Network!
   .-
   ;##########BotServ######################################
@@ -617,12 +617,7 @@ Menu Nicklist,channel {
   ....-
   ...-
   ..-
-  ..Ghost:.msg NickServ GHOST $$?="Nickname" $$?="Password"
   ..Recover:.msg NickServ RECOVER $$?="Nickname" $$?="Password"
-  ..Release:.msg NickServ RELEASE $$?="Nickname" $$?="Password"
-  ..-
-  ..SendPass:.msg NickServ SENDPASS $$?="Nickname"
-  ..GetPass:.msg NickServ GETPASS $$?="Nickname"
   ..GetEmail:.msg NickServ GETEMAIL $$?="Email Address"
   ..-
   ..Forbid:.msg NickServ FORBID $$?="Nickname" $$?="Reason"
