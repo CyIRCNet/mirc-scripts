@@ -1,4 +1,4 @@
-;-----------Anope Services v.1.1 by Shillos--------
+;-----------Anope Services v.1.2 by Shillos--------
 ;This script was built to match Anope 2.0.10+ for CyIRC Network and it's extras
 ;Freely copy or edit any part of this script as you feel fit for your network.
 ;This script is available @ https://github.com/CyIRCNet/mirc-scripts/
@@ -9,7 +9,7 @@ Menu Nicklist,channel {
   $iif($server != $null,Anope Services)
   .- = • • IRC.CYIRC.ORG • • = - :.server -m irc.cyirc.org:+6697 -j #cyprus
   .-
-  .Advertise:.say Anope Services v.1.1 by Shillos can be downloaded from https://github.com/CyIRCNet/mirc-scripts/
+  .Advertise:.say Anope Services v.1.2 by Shillos can be downloaded from https://github.com/CyIRCNet/mirc-scripts/
   .Visit Us:.say Visit us today at #cyprus on the CyIRC Network!
   .-
   ;##########BotServ######################################
@@ -678,7 +678,6 @@ Menu Nicklist,channel {
   ...Memory:.msg OperServ STATS MEMORY
   ...Uplink:.msg OperServ STATS UPLINK
   ..-
-  ..Staff:.msg OperServ STAFF
   ..Oper
   ...Add:.msg OperServ OPER ADD $$?="Nickname"
   ...Delete:.msg OperServ OPER DEL $$?="Nickname/Entry-Num/List"
@@ -838,14 +837,15 @@ Menu Nicklist,channel {
   ...Give Operflags:.msg OperServ OLINE $$?="Nickname" $$?="Oper flags (e.g. +hkb-ZLG)"
   ...Change user's modes:.msg OperServ UMODE $$?="Nickname" $$?="User modes (e.g. +pi-dRG)
   ..-
-  ..Update:.msg OperServ UPDATE
-  ..-
-  ..Reload:.msg OperServ RELOAD
-  ..-
-  ..Restart:.msg OperServ RESTART
-  ..-
-  ..Quit - No Save:.msg OperServ QUIT
-  ..-
-  ..Shutdown - Save:.msg OperServ SHUTDOWN
-  ..-
+  ..Misc
+  ...Update:.msg OperServ UPDATE
+  ...-
+  ...Reload:.msg OperServ RELOAD
+  ...-
+  ...Restart:.msg OperServ RESTART
+  ...-
+  ...Quit - No Save:.msg OperServ QUIT
+  ...-
+  ...Shutdown - Save:.msg OperServ SHUTDOWN
+  ...-
 }
