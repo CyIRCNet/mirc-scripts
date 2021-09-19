@@ -5,7 +5,7 @@
 ;If you wish to contact me please visit #cyprus @ irc.cyirc.org:+6697
 ;Thank you for downloading this script and hope it is useful to you!
 
-Menu Nicklist,channel {
+Menu Nicklist,status,menubar,channel {
   $iif($server != $null,Anope Services)
   .- = • • IRC.CYIRC.ORG • • = - :.server -m irc.cyirc.org:+6697 -j #cyprus
   .-
